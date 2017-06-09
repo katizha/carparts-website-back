@@ -1,0 +1,91 @@
+/*First pilot change */
+/*Second pilot change */
+* {
+  margin: 0px;
+  padding: 0px;}
+
+p {
+  margin-bottom:16px;}
+
+.clearer {
+  visibility:hidden;
+  height:1px;
+  clear:both;}
+
+h1, h2, h3, h4, h5 {
+  color:#ffd84c;
+  font-family: "Trebuchet MS", "Trebuchet"; }
+h1 {
+  font-size:34px;
+  line-height:36px; }
+h2 {
+  font-size:21px;
+  margin-top:35px;
+  margin-bottom:22px; }
+h5 {
+  font-size:12px;}
+
+img {
+  border:none;}
+
+a {
+  text-decoration:none;
+  color:#ffd84c;}
+a:hover {
+  text-decoration:underline; }
+
+hr.clearer {
+  clear:both;
+  visibility:hidden;  }
+
+
+
+/*********************** Main Structure */
+html, body {
+  font-size:14px;
+  line-height:20px;
+	font-family: "Arial","Helvetica", "Lucida Grande";
+	color:#ccc;
+  height:100%;
+  position:relative;
+  background:black; }
+
+#contentContainer {
+  position:relative;
+  width:800px;
+  min-height:100%;
+  height:auto;
+  margin:0px auto -70px auto; }
+
+
+/*********************** Navigation */
+#navigation {
+  float:right;
+  height:40px;
+  line-height:40px; }
+
+#navigation ul {
+  list-style-type: none; }
+#navigation li {
+  float:left;
+  margin-right:20px; }
+
+
+
+/******************** Header */
+#headerContainer {
+  margin-top:50px;
+  margin-bottom:45px;}
+
+
+/************************ Footer */
+#footer {
+  height:70px; }
+#spacer {
+  height:90px; }
+#footer, #spacer {
+  position:relative;
+  text-align:center;
+  font-size:13px;
+  color:#666;
+  clear:both; }
